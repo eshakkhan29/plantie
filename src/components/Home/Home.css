@@ -1,0 +1,51 @@
+.heading {
+  font-weight: 600;
+  font-size: 70px;
+  color: #1a5200;
+  margin-top: 50px;
+}
+.info p {
+  margin: 36px 0px;
+  font-size: 22px;
+  line-height: 36px;
+}
+.live-demo-btn {
+  background: #80a07e;
+  border: 1px solid #1a5200;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+  padding: 15px 50px;
+  font-size: 26px;
+  border-radius: 0px 43px 0px 43px;
+  transition: all .3s ease;
+}
+.live-demo-btn:hover {
+  background: #ccdac9;
+  border: 1px solid #80a07e;
+}
+.section-heading {
+  text-align: center;
+  color: #283727;
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+}
+.section-heading::before {
+  content: "";
+  width: 235px;
+  border-bottom: 3px solid #80a07e;
+  position: absolute;
+  bottom: -15px;
+  left: 40%;
+}
+.review {
+  padding: 60px;
+  margin-top: 100px;
+  background: #ccdac9;
+  border-radius: 0px 290px 0px 290px;
+  box-shadow: 3px -5px 4px #00000040;
+}
+.review p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}

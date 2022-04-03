@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Zubayer",
+        "rating": "4.5",
+        "body": "The tree looks healthy, HOWEVER a taupe decorator planter NOT!! Well it is taupe, but it is plastic and I would not even call it a planter but more a plastic sleeve around the nursery pot concealed beneath it."
+    },
+    {
+        "id": 2,
+        "name": "Mahmud",
+        "rating": "4.8",
+        "body": "I ordered this plant and when I opened the package half of the dirt had fallen out. I believe this is the reason it died. The roots had been damaged, probably."
+    },
+    {
+        "id": 3,
+        "name": "Rofiq",
+        "rating": "5",
+        "body": "I can't find a way to contact the company - I would like a partial refund as I will now need to buy a pot to put it in - the inner pot it comes in is the thin black plastic you'd find at a hardware store."
+    },
+    {
+        "id": 4,
+        "name": "Eshak",
+        "rating": "4.9",
+        "body": "Beautiful plant. Looks healthy and vibrant, much better than what I expected. Especially for my first plant order online. Packaging was tight and trouble free. "
+    },
+    {
+        "id": 5,
+        "name": "Saiful",
+        "rating": "5",
+        "body": "Impressed. Packaging didn't appear stellar upon arrival, but plants arrived in excellent condition. 6-7 healthy fans of leaves on each plant. No browning. They have to be close to 4 feet high."
+    },
+    {
+        "id": 6,
+        "name": "Farhad",
+        "rating": "5",
+        "body": "This was a beautiful plant when it arrived. There were a few dried out leaves that were void of color, I figured it was due to the shipping process. "
+    }
+]

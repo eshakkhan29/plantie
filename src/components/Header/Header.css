@@ -1,0 +1,18 @@
+.header {
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.link:hover {
+  color: #287e00;
+}
+
