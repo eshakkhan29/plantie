@@ -6,10 +6,9 @@ const Review = () => {
     const [review] = useReview();
     return (
         <div className='position-relative'>
-            <img src="" alt="" />
-            <div className='row row-cols-3 g-5'>
+            <div className='row row-cols-3 g-5 mt-5'>
             {
-                review.map(review => <div className='col'>
+                review.map(review => <div key={review.id} className='col'>
                     <div className="col fw-bold">
               <img src="" alt="" />
               <h3>{review.name}</h3>
@@ -21,7 +20,6 @@ const Review = () => {
                 </div>)
             }
             </div>
-            <img src="" alt="" />
         </div>
     );
 };

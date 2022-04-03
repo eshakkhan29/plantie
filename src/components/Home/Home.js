@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import useReview from "../../hook/useReview";
 import image from "../../image/right-img.png";
 import "./Home.css";
@@ -5,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   const [review] = useReview();
   const newReview = review.slice(0, 3);
-  console.log(review);
+  const navigate = useNavigate();
   return (
     <>
       <div className="d-flex home">
@@ -28,7 +29,7 @@ const Home = () => {
         <h2 className="section-heading">REVIEW</h2>
         <div className="row row-cols-3 p-5">
           {newReview.map((data) => (
-            <div className="col fw-bold">
+            <div key={data.id} className="col fw-bold">
               <img src="" alt="" />
               <h3>{data.name}</h3>
               <p>
@@ -39,7 +40,7 @@ const Home = () => {
           ))}
         </div>
         <div className="text-center">
-          <button className="live-demo-btn">see all review</button>
+          <button onClick={() => navigate('/review')} className="live-demo-btn">see all review</button>
         </div>
       </section>
     </>

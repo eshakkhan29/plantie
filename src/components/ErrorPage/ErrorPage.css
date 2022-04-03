@@ -1,0 +1,9 @@
+.error h1 {
+  font-weight: 500;
+  font-size: 200px;
+  color: #597356;
+}
+.error p {
+  font-weight: 500;
+  font-size: 30px;
+}
