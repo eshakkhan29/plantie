@@ -8,7 +8,7 @@ const Home = () => {
   const newReview = review.slice(0, 3);
   const navigate = useNavigate();
   return (
-    <>
+    <div>
       <div className="d-flex home">
         <div className="info">
           <h1 className="heading">Plants For Our Earth</h1>
@@ -40,10 +40,10 @@ const Home = () => {
           ))}
         </div>
         <div className="text-center">
-          <button onClick={() => navigate('/review')} className="live-demo-btn">see all review</button>
+          <button onClick={() => navigate('/review')} className="live-demo-btn">see all reviews</button>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

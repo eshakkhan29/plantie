@@ -6,24 +6,24 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <div className="header">
+      <div className="header py-5">
         <div>
           <img src={logo} alt="logo" />
         </div>
         <div>
-          <NavLink className="link active-link" to="/home">
+          <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/home">
             Home
           </NavLink>
-          <NavLink className="link" to="/review">
+          <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/review">
             Review
           </NavLink>
-          <NavLink className="link" to="/dashboard">
+          <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/dashboard">
             Dashboard
           </NavLink>
-          <NavLink className="link" to="/blogs">
+          <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/blogs">
             Blogs
           </NavLink>
-          <NavLink className="link" to="/about">
+          <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/about">
             About
           </NavLink>
         </div>

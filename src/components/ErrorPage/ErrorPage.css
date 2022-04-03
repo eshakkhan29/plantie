@@ -1,3 +1,7 @@
+.error{
+    background: #D5DBD4;
+    border-radius: 30px;
+}
 .error h1 {
   font-weight: 500;
   font-size: 200px;
@@ -7,3 +11,16 @@
   font-weight: 500;
   font-size: 30px;
 }
+.back-btn {
+    background: #80a07e;
+    border: 1px solid #1a5200;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px 50px;
+    font-size: 26px;
+    border-radius: 0px 43px 0px 43px;
+    transition: all .3s ease;
+  }
+  .back-btn:hover {
+    background: #ccdac9;
+    border: 1px solid #80a07e;
+  }

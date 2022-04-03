@@ -1,6 +1,6 @@
 .heading {
   font-weight: 600;
-  font-size: 70px;
+  font-size: 80px;
   color: #1a5200;
   margin-top: 50px;
 }
@@ -13,7 +13,7 @@
   background: #80a07e;
   border: 1px solid #1a5200;
   box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
-  padding: 15px 50px;
+  padding: 10px 50px;
   font-size: 26px;
   border-radius: 0px 43px 0px 43px;
   transition: all .3s ease;
