@@ -1,30 +1,23 @@
-import React from "react";
-import "./Review.css";
-import useReview from "../../hook/useReview";
+import React from 'react';
 
-const Review = () => {
-  const [review] = useReview();
-  return (
-    <div className="mt-5">
-      <h2 className="section-heading">REVIEW</h2>
-      <div className="row row-cols-1 row-cols-lg-3 g-5 mt-5">
-        {review.map((review) => (
-          <div key={review.id} className="col">
+const Review = ({review}) => {
+    const {image, name, rating, body} = review;
+    return (
+        <div>
+            <div className="col">
             <div className="col fw-bold">
               <div className="d-flex align-items-center">
-                <img className="user-image me-4 mb-3" src={review.image} alt="" />
-                <h3>{review.name}</h3>
+                <img className="user-image me-4 mb-3" src={image} alt="user" />
+                <h3>{name}</h3>
               </div>
               <p>
-                <span className="ms-5 text-warning">Rating: {review.rating}</span>
+                <span className="ms-5 text-warning">Rating: {rating} </span>
               </p>
-              <blockquote>{review.body}</blockquote>
+              <blockquote className=" fw-light">{body}</blockquote>
             </div>
           </div>
-        ))};
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default Review;

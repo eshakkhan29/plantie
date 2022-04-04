@@ -42,7 +42,7 @@ const Home = () => {
           ))}
         </div>
         <div className="text-center">
-          <button onClick={() => navigate("/review")} className="live-demo-btn">
+          <button onClick={() => navigate("/reviews")} className="live-demo-btn">
             see all reviews
           </button>
         </div>

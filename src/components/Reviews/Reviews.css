@@ -1,0 +1,21 @@
+.section-heading {
+    text-align: center;
+    color: #283727;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+  }
+  .section-heading::before {
+    content: "";
+    width: 235px;
+    border-bottom: 3px solid #80a07e;
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+  }
+  .user-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }

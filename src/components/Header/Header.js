@@ -14,8 +14,8 @@ const Header = () => {
           <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/home">
             Home
           </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/review">
-            Review
+          <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/reviews">
+            Reviews
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/dashboard">
             Dashboard
