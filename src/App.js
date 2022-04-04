@@ -10,10 +10,10 @@ import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
-    <div className="main">
+    <div>
       <div className="container">
         <Header></Header>
-        <hr className="line" />
+        <hr className="line"/>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/home" element={<Home></Home>}></Route>
