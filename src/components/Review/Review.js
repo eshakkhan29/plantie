@@ -21,7 +21,7 @@ const Review = () => {
               <blockquote>{review.body}</blockquote>
             </div>
           </div>
-        ))}
+        ))};
       </div>
     </div>
   );
