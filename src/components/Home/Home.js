@@ -8,7 +8,7 @@ const Home = () => {
   const newReview = review.slice(0, 3);
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="home">
       <div className="d-flex home">
         <div className="info">
           <h1 className="heading">Plants For Our Earth</h1>

@@ -16,9 +16,9 @@ const Review = () => {
                 <h3>{review.name}</h3>
               </div>
               <p>
-                <span className="ms-5">Rating: {review.rating}</span>
+                <span className="ms-5 text-warning">Rating: {review.rating}</span>
               </p>
-              <p>{review.body}</p>
+              <blockquote>{review.body}</blockquote>
             </div>
           </div>
         ))}
