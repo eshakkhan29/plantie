@@ -11,10 +11,12 @@ const Review = () => {
         {review.map((review) => (
           <div key={review.id} className="col">
             <div className="col fw-bold">
-              <img src="" alt="" />
-              <h3>{review.name}</h3>
+              <div className="d-flex align-items-center">
+                <img className="user-image me-4 mb-3" src={review.image} alt="" />
+                <h3>{review.name}</h3>
+              </div>
               <p>
-                <span>Rating: {review.rating}</span>
+                <span className="ms-5">Rating: {review.rating}</span>
               </p>
               <p>{review.body}</p>
             </div>

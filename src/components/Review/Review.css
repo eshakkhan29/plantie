@@ -13,3 +13,9 @@
     bottom: -15px;
     left: 40%;
   }
+  .user-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }

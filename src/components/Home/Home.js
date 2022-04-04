@@ -30,8 +30,10 @@ const Home = () => {
         <div className="row row-cols-3 p-5">
           {newReview.map((data) => (
             <div key={data.id} className="col fw-bold">
-              <img src="" alt="" />
-              <h3>{data.name}</h3>
+              <div className="d-flex align-items-center">
+                <img className="user-image me-4 mb-3" src={data.image} alt="" />
+                <h3>{data.name}</h3>
+              </div>
               <p>
                 <span>Rating: {data.rating}</span>
               </p>
@@ -40,7 +42,9 @@ const Home = () => {
           ))}
         </div>
         <div className="text-center">
-          <button onClick={() => navigate('/review')} className="live-demo-btn">see all reviews</button>
+          <button onClick={() => navigate("/review")} className="live-demo-btn">
+            see all reviews
+          </button>
         </div>
       </section>
     </div>
