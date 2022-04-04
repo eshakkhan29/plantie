@@ -7,7 +7,7 @@ const Review = () => {
   return (
     <div className="mt-5">
       <h2 className="section-heading">REVIEW</h2>
-      <div className="row row-cols-3 g-5 mt-5">
+      <div className="row row-cols-1 row-cols-lg-3 g-5 mt-5">
         {review.map((review) => (
           <div key={review.id} className="col">
             <div className="col fw-bold">

@@ -1,10 +1,11 @@
 import React from "react";
+import './Blogs.css';
 
 const Blogs = () => {
   return (
-    <div className="row row-cols-2 mt-5 g-5">
+    <div className="row row-cols-lg-2 row-cols-1  mt-5 g-5">
       <div className="col">
-        <h1>How to work Context API</h1>
+        <h1 className="title">How to work Context API</h1>
         <p>
           Context API is used in contrast to props. This is a very powerful
           thing. We use props to give data from one component to the number of
@@ -15,7 +16,7 @@ const Blogs = () => {
         </p>
       </div>
       <div className="col">
-        <h1>What is semantic Tag</h1>
+        <h1 className="title">What is semantic Tag</h1>
         <p>
           A semantic tag lets developers easily understand what is where and
           why. Seeing this, one can understand what is the place of the layout.

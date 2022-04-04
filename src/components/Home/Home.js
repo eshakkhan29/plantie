@@ -9,8 +9,8 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="home">
-      <div className="d-flex home">
-        <div className="info">
+      <div className="d-flex home row">
+        <div className="info col order-lg-0 order-2">
           <h1 className="heading">Plants For Our Earth</h1>
           <p>
             Indoor plants are popular because they are relatively easy to take
@@ -21,13 +21,13 @@ const Home = () => {
           </p>
           <button className="live-demo-btn">Live demo</button>
         </div>
-        <div className="image pt-5 mt-5">
+        <div className="col image pt-5 mt-5 order-lg-2 order-0">
           <img src={image} alt="" />
         </div>
       </div>
       <section className="review mb-5">
         <h2 className="section-heading">REVIEW</h2>
-        <div className="row row-cols-3 p-5">
+        <div className="row row-cols-lg-3 row-cols-1 p-5">
           {newReview.map((data) => (
             <div key={data.id} className="col fw-bold">
               <div className="d-flex align-items-center">
